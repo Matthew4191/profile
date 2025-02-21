@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.title-container {
+    background-color: #889E73;
+    width: 100%;
+    border-bottom: 30px solid #F4D793;
+    position: relative;
+}
+
+.title-text {
+    color: #FFF6DA;
+    font-family: "charm";
+    text-align: center;
+}
+
+.bird {
+    position: absolute;
+    left: 300px;
+}
+
+.seagull {
+    position: absolute;
+    right: 300px;
+    bottom: 320px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0;
+    padding-top: 30px;
+}
+
+.title-container ul {
+    padding: 0;
+    margin: 40px;
+}
+
+.title-container li {
+    font-size: 2rem;
+    margin: 0;
+    list-style-type: none;
+}
+
+.profile-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    gap: 30px;
+}
+
+.profile-photo {
+    border-radius: 50%;
+}
+
+h2 {
+    color: #A94A4A;
+    font-family: "charm";
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.profile-container p {
+    font-family: "Verdana";
+    width: 50%;
+    margin: auto;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.interests-container {
+    display: flex;
+    justify-content: space-around;
+    font-family: "Verdana";
+    font-size: 20px;
+    margin: 0% 10%;
+}
+
+.interests-container > div {
+    padding: 40px 0px;
+}
+
+.food {
+    padding: 0px 25px;  
+}
+
+.coffee-cup {
+    padding: 25px 46.3px;
+}
+
+@media (max-width: 1000px) {
+    .interests-container{
+        flex-direction: column;
+    }
+}
+
+hr {
+    border-style: dotted none none;
+    width: 30px;
+    border-width: 7px;
+    border-color: #A94A4A;
+}
+
+footer {
+    font-family: "Verdana";
+    font-size: 0.9rem;
+    color: white;
+    background-color: #A94A4A;
+    height: 150px;
+    width: 100%;
+    padding-top: 30px;
+}
+
+a {
+    padding: 15px;
+}
+
+footer p {
+    padding-top: 50px;
+}
